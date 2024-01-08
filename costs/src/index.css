@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box; /* para os inputs não ultrapassarem a div */
   font-family: 'Open Sans', sans-serif;
+  transition: 0.1s;
 }
 
 html, body, #root {
