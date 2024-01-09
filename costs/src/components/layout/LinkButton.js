@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const LinkButton = ({to, text}) => {
   return (
-    <Link>
-      
+    <Link className={styles.btn} to={to}>
+      {text}
     </Link>
   )
 }

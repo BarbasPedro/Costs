@@ -7,7 +7,7 @@ import logo from '../../img/costs_logo.png'
 
 const NavBar = () => {
   return (
-    <nav class={styles.navbar}>
+    <nav className={styles.navbar}>
       <Container>
         <Link to="/">
           <img src={logo} alt="Costs" />
