@@ -8,6 +8,14 @@ const Select = ({ text, type, name, options, handleOnChange, value}) => {
           <option disabled>
             Selecione uma opção
           </option>
+            {options.map((option) => (
+              <option
+                value={option.id}
+                key={option.id}
+              >
+                {option.name}
+              </option>
+            ))}
         </select>
       </div>
     )
