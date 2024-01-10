@@ -4,7 +4,7 @@ const Select = ({ text, type, name, options, handleOnChange, value}) => {
     return (
       <div className={styles.form_control}>
         <label htmlFor={name}>{text}</label>
-        <select type={type} name={name}>
+        <select type={type} name={name} onChange={handleOnChange} value={value || ''}>
           <option disabled>
             Selecione uma opção
           </option>
